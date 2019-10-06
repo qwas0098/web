@@ -1,0 +1,60 @@
+.pad{
+    padding: 25px;
+}
+.main-text{
+    padding: 20px;
+    border: 1px solid darkslategrey;
+    margin: 50px auto;
+    width: 95%;
+    background-color: white;
+}
+
+.font{
+    font-family: 'Noto Sans KR', sans-serif;
+}
+.table, th, td {
+    border: 1px solid #bcbcbc;
+  }
+.table {
+    margin-left: auto; 
+    margin-right: auto; /*가운데정렬*/
+    width: 50%;
+    height: 200px;
+  }
+
+.container{
+    display: flex;
+    flex-direction: column;
+}
+header{
+    border-bottom:1px solid gray;
+    padding-left:20px;
+}
+
+.content{
+    display:flex;
+}
+.content nav{
+    text-align: center;
+    border-right:1px solid gray;
+    background-color: darkslategrey
+}
+
+ul{
+    list-style:none;
+    padding-left:0px;
+} 
+
+a{
+    text-decoration: none;
+    color:white;
+}
+nav{
+    flex-basis: 150px;
+    flex-shrink: 0;
+}
+main{
+    flex-basis:100%;
+    border:1px solid gray;
+    padding:10px;
+}
